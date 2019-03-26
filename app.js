@@ -16,7 +16,9 @@ const getPostData = (req) => {
         }
         let postData = ''
         req.on('data', chunk => {
-            postData += chunk.toString() // 或者直接处理,最后json.parse
+            postData += chunk.toString() 
+            // 或者直接处理,最后json.parse
+            // postData += chunk
         })
         req.on('end', () => {
             if (!postData) {
