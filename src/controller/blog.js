@@ -2,7 +2,7 @@ const { exec } = require('../db/mysql')
 
 //获取 blog 列表
 const getList = (author, keyword) => {
-    // where 1=1 占位符 防止author 和 keyword 为空, sql报错
+    // where 1=1 占位符 防止author 和 keyword 为空, sql报错 提前考虑边界情况,很多时候都能用到
     let sql = `select * from blogs where 1=1 `
     if (author) {
         sql += `and author = '${author}' `
