@@ -12,6 +12,7 @@ if (env === 'dev') {
     }
 }
 
+// 正式环境的配置可以放在gitignore里
 if (env === 'production') {
     MYSQL_CONF = {
         host: 'localhost',
