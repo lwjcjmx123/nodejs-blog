@@ -16,8 +16,10 @@
     "nodemon": "^1.18.9"
   },
   "dependencies": {
+    "mixin-deep": "^2.0.1",
     "mysql": "^2.16.0",
     "redis": "^2.8.0",
+    "set-value": "^3.0.1",
     "xss": "^1.0.3"
   }
 }
