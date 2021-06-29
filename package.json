@@ -18,7 +18,7 @@
   "dependencies": {
     "mixin-deep": "^2.0.1",
     "mysql": "^2.16.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "set-value": "^3.0.1",
     "xss": "^1.0.3"
   }
